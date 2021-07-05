@@ -50,14 +50,41 @@ h3{
     background-position: right;
 }
 .exp-area{
-    
-
-}
-.exp-itm{
-    
-    
-}
-.border-left{
+    background-image: url(img/3rd\ bg.png);
+    background-repeat: no-repeat;
+    background-position:10px 200px;
    
 }
+   
+
+.border-left{
+   border-left: 5px solid;
+   border-image: linear-gradient(red, blue);
+   border-image-slice: 1;
+   border-radius: 5px;
+}
+.border-right{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, rgb(2, 255, 242));
+    border-image-slice: 1;
+}
+.shadow{
+    width: 40%;
+   margin-left: 5%;
+   margin-right: 5%; 
+   padding: 0px 15px;
+   box-shadow: 10px 10px 40px gray;  
+}
+p{
+    text-align: justify;
+    color: dimgray;
+   
+}
+footer p{
+    text-align: center;
+}
+#pad{
+    padding-right: 65px;
+}
+
 
